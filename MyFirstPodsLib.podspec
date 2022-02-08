@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MyFirstPodsLib"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "MyFirstPodsLib allows you to perform operation to add or subtract two integer values."
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,9 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-This CocoaPods library helps you perform calculation.
+This CocoaPods library helps you perform calculation. Following Calculations are allow.
+Addition of given two integers
+Subtraction of given two integers.
                    DESC
 
   spec.homepage     = "https://github.com/appletv-cognitionteam/MyFirstPodLib"
@@ -92,8 +94,8 @@ This CocoaPods library helps you perform calculation.
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "MyFirstPodsLib/**/*.{h,m,swift}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "MyFirstPodsLib/*.{h,m,swift}"
+
 
   # spec.public_header_files = "Classes/**/*.h"
 

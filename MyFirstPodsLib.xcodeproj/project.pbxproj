@@ -7,18 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2532B36427B2AC9F00864606 /* MyFirstPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2555EA4B27B248EE00955CC0 /* MyFirstPod.swift */; };
 		2555EA1E27B2474D00955CC0 /* MyFirstPodsLib.docc in Sources */ = {isa = PBXBuildFile; fileRef = 2555EA1D27B2474D00955CC0 /* MyFirstPodsLib.docc */; };
 		2555EA2427B2474E00955CC0 /* MyFirstPodsLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2555EA1927B2474D00955CC0 /* MyFirstPodsLib.framework */; };
 		2555EA2927B2474E00955CC0 /* MyFirstPodsLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2555EA2827B2474E00955CC0 /* MyFirstPodsLibTests.swift */; };
 		2555EA2A27B2474E00955CC0 /* MyFirstPodsLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 2555EA1C27B2474D00955CC0 /* MyFirstPodsLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2555EA3A27B2486900955CC0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2555EA3927B2486900955CC0 /* AppDelegate.swift */; };
-		2555EA3C27B2486900955CC0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2555EA3B27B2486900955CC0 /* SceneDelegate.swift */; };
-		2555EA3E27B2486900955CC0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2555EA3D27B2486900955CC0 /* ViewController.swift */; };
-		2555EA4127B2486900955CC0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2555EA3F27B2486900955CC0 /* Main.storyboard */; };
-		2555EA4327B2486A00955CC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2555EA4227B2486A00955CC0 /* Assets.xcassets */; };
-		2555EA4627B2486A00955CC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2555EA4427B2486A00955CC0 /* LaunchScreen.storyboard */; };
 		2555EA4C27B248EE00955CC0 /* MyFirstPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2555EA4B27B248EE00955CC0 /* MyFirstPod.swift */; };
-		2555EA4D27B2694700955CC0 /* MyFirstPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2555EA4B27B248EE00955CC0 /* MyFirstPod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,14 +31,6 @@
 		2555EA1D27B2474D00955CC0 /* MyFirstPodsLib.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MyFirstPodsLib.docc; sourceTree = "<group>"; };
 		2555EA2327B2474E00955CC0 /* MyFirstPodsLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstPodsLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2555EA2827B2474E00955CC0 /* MyFirstPodsLibTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstPodsLibTests.swift; sourceTree = "<group>"; };
-		2555EA3727B2486900955CC0 /* MyFirstPodLibExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstPodLibExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2555EA3927B2486900955CC0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2555EA3B27B2486900955CC0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2555EA3D27B2486900955CC0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2555EA4027B2486900955CC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2555EA4227B2486A00955CC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2555EA4527B2486A00955CC0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2555EA4727B2486A00955CC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2555EA4B27B248EE00955CC0 /* MyFirstPod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstPod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -64,13 +50,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2555EA3427B2486900955CC0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,7 +58,6 @@
 			children = (
 				2555EA1B27B2474D00955CC0 /* MyFirstPodsLib */,
 				2555EA2727B2474E00955CC0 /* MyFirstPodsLibTests */,
-				2555EA3827B2486900955CC0 /* MyFirstPodLibExample */,
 				2555EA1A27B2474D00955CC0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,7 +67,6 @@
 			children = (
 				2555EA1927B2474D00955CC0 /* MyFirstPodsLib.framework */,
 				2555EA2327B2474E00955CC0 /* MyFirstPodsLibTests.xctest */,
-				2555EA3727B2486900955CC0 /* MyFirstPodLibExample.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,20 +87,6 @@
 				2555EA2827B2474E00955CC0 /* MyFirstPodsLibTests.swift */,
 			);
 			path = MyFirstPodsLibTests;
-			sourceTree = "<group>";
-		};
-		2555EA3827B2486900955CC0 /* MyFirstPodLibExample */ = {
-			isa = PBXGroup;
-			children = (
-				2555EA3927B2486900955CC0 /* AppDelegate.swift */,
-				2555EA3B27B2486900955CC0 /* SceneDelegate.swift */,
-				2555EA3D27B2486900955CC0 /* ViewController.swift */,
-				2555EA3F27B2486900955CC0 /* Main.storyboard */,
-				2555EA4227B2486A00955CC0 /* Assets.xcassets */,
-				2555EA4427B2486A00955CC0 /* LaunchScreen.storyboard */,
-				2555EA4727B2486A00955CC0 /* Info.plist */,
-			);
-			path = MyFirstPodLibExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,23 +139,6 @@
 			productReference = 2555EA2327B2474E00955CC0 /* MyFirstPodsLibTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2555EA3627B2486900955CC0 /* MyFirstPodLibExample */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2555EA4827B2486A00955CC0 /* Build configuration list for PBXNativeTarget "MyFirstPodLibExample" */;
-			buildPhases = (
-				2555EA3327B2486900955CC0 /* Sources */,
-				2555EA3427B2486900955CC0 /* Frameworks */,
-				2555EA3527B2486900955CC0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MyFirstPodLibExample;
-			productName = MyFirstPodLibExample;
-			productReference = 2555EA3727B2486900955CC0 /* MyFirstPodLibExample.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -207,9 +153,6 @@
 						CreatedOnToolsVersion = 13.2.1;
 					};
 					2555EA2227B2474E00955CC0 = {
-						CreatedOnToolsVersion = 13.2.1;
-					};
-					2555EA3627B2486900955CC0 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -229,7 +172,6 @@
 			targets = (
 				2555EA1827B2474D00955CC0 /* MyFirstPodsLib */,
 				2555EA2227B2474E00955CC0 /* MyFirstPodsLibTests */,
-				2555EA3627B2486900955CC0 /* MyFirstPodLibExample */,
 			);
 		};
 /* End PBXProject section */
@@ -249,16 +191,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2555EA3527B2486900955CC0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2555EA4627B2486A00955CC0 /* LaunchScreen.storyboard in Resources */,
-				2555EA4327B2486A00955CC0 /* Assets.xcassets in Resources */,
-				2555EA4127B2486900955CC0 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -275,18 +207,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2555EA4D27B2694700955CC0 /* MyFirstPod.swift in Sources */,
+				2532B36427B2AC9F00864606 /* MyFirstPod.swift in Sources */,
 				2555EA2927B2474E00955CC0 /* MyFirstPodsLibTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2555EA3327B2486900955CC0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2555EA3E27B2486900955CC0 /* ViewController.swift in Sources */,
-				2555EA3A27B2486900955CC0 /* AppDelegate.swift in Sources */,
-				2555EA3C27B2486900955CC0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,25 +221,6 @@
 			targetProxy = 2555EA2527B2474E00955CC0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		2555EA3F27B2486900955CC0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2555EA4027B2486900955CC0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2555EA4427B2486A00955CC0 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2555EA4527B2486A00955CC0 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2555EA2B27B2474E00955CC0 /* Debug */ = {
@@ -546,62 +449,6 @@
 			};
 			name = Release;
 		};
-		2555EA4927B2486A00955CC0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FFB56TTU54;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyFirstPodLibExample/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.monscierge.MyFirstPodLibExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		2555EA4A27B2486A00955CC0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = FFB56TTU54;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MyFirstPodLibExample/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.monscierge.MyFirstPodLibExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -628,15 +475,6 @@
 			buildConfigurations = (
 				2555EA3127B2474E00955CC0 /* Debug */,
 				2555EA3227B2474E00955CC0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2555EA4827B2486A00955CC0 /* Build configuration list for PBXNativeTarget "MyFirstPodLibExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2555EA4927B2486A00955CC0 /* Debug */,
-				2555EA4A27B2486A00955CC0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
