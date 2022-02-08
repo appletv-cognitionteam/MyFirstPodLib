@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "MyFirstPodsLib"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "MyFirstPodsLib allows you to perform operation to add or subtract two integer values."
 
   # This description is used to generate tags and improve search results.
@@ -83,7 +83,7 @@ Subtraction of given two integers.
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/appletv-cognitionteam/MyFirstPodLib.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/appletv-cognitionteam/MyFirstPodLib.git",:branch => "main" :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
